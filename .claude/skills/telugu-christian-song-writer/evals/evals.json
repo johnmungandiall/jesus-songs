@@ -1,0 +1,101 @@
+{
+  "skill_name": "telugu-christian-song-writer",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "hey can you write me a telugu christian song about jesus's love and sacrifice on the cross? i need it for suno ai, maybe around 3 minutes long. make it emotional and devotional, something our church youth group can sing",
+      "expected_output": "A Telugu Christian song with proper Suno AI formatting ([Intro], [Verse], [Chorus], etc.), focused on Jesus's love and the cross, with emotional and devotional lyrics in Telugu script, standard structure with bridge, approximately 20-30 lines total",
+      "files": [],
+      "assertions": [
+        {
+          "name": "Has proper Suno AI formatting with section tags",
+          "description": "Song must include [Intro], [Verse], [Chorus], [Bridge], [Outro], and [End] tags"
+        },
+        {
+          "name": "Uses Telugu script throughout",
+          "description": "All lyrics must be in Telugu script (తెలుగు), not English transliteration"
+        },
+        {
+          "name": "Focuses on Jesus's love and cross sacrifice",
+          "description": "Lyrics must mention the cross (సిలువ), Jesus's love (ప్రేమ), sacrifice, and related themes"
+        },
+        {
+          "name": "Appropriate length for 3 minutes",
+          "description": "Song should have 20-30 lines of lyrics (not counting section tags)"
+        },
+        {
+          "name": "No musical direction notes in parentheses",
+          "description": "Should not include notes like (Soft piano) or (Guitar solo) - lyrics only"
+        },
+        {
+          "name": "Saved to .txt file",
+          "description": "Output must be saved as a .txt file"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "i want to create a praise song in telugu for our sunday worship service. the theme should be about god's grace and mercy. keep it simple and easy to sing, not too long. format it for suno ai please",
+      "expected_output": "A simpler Telugu Christian song formatted for Suno AI, focusing on God's grace (కృప) and mercy, with straightforward structure (2 verses, chorus, outro), easy-to-sing lyrics in Telugu script, approximately 15-20 lines",
+      "files": [],
+      "assertions": [
+        {
+          "name": "Has proper Suno AI formatting",
+          "description": "Song must include section tags like [Intro], [Verse], [Chorus], [Outro], [End]"
+        },
+        {
+          "name": "Uses Telugu script",
+          "description": "All lyrics in Telugu script, not transliteration"
+        },
+        {
+          "name": "Focuses on grace and mercy theme",
+          "description": "Lyrics must mention grace (కృప) and mercy (దయ) as central themes"
+        },
+        {
+          "name": "Simple and short structure",
+          "description": "Should be 15-20 lines, simpler structure without complex sections"
+        },
+        {
+          "name": "No musical notes",
+          "description": "No parenthetical musical directions"
+        },
+        {
+          "name": "Saved to .txt file",
+          "description": "Output saved as .txt file"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Generate a telugu worship song about victory in Christ and overcoming through faith. I'm uploading this to suno to create music for our church's annual conference. Make it powerful and declarative, with a strong chorus that people can remember easily",
+      "expected_output": "A powerful Telugu Christian song formatted for Suno AI, theme of victory (విజయము) in Christ, declarative and strong tone, memorable chorus with repetition, standard or extended structure with impactful bridge, approximately 25-30 lines",
+      "files": [],
+      "assertions": [
+        {
+          "name": "Has proper Suno AI formatting",
+          "description": "Includes all necessary section tags"
+        },
+        {
+          "name": "Uses Telugu script",
+          "description": "All lyrics in Telugu script"
+        },
+        {
+          "name": "Victory theme with powerful tone",
+          "description": "Lyrics must emphasize victory (విజయము), overcoming, and faith with declarative language"
+        },
+        {
+          "name": "Memorable repetitive chorus",
+          "description": "Chorus should have repetition and be easy to remember"
+        },
+        {
+          "name": "No musical notes",
+          "description": "No parenthetical musical directions"
+        },
+        {
+          "name": "Saved to .txt file",
+          "description": "Output saved as .txt file"
+        }
+      ]
+    }
+  ]
+}
