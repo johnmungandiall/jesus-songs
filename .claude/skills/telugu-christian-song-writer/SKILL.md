@@ -1,11 +1,11 @@
 ---
 name: telugu-christian-song-writer
-description: Generate original Telugu Christian song lyrics formatted for Suno AI. Use this skill whenever the user asks to create, write, or generate Telugu Christian songs, Telugu worship songs, Telugu praise songs, or Telugu devotional songs. Also trigger when users mention Suno AI format with Telugu Christian content, or ask for song lyrics about Jesus, God, salvation, worship, or praise in Telugu language.
+description: Generate original Telugu Christian song lyrics formatted for Suno AI, with a matching Suno style-of-music prompt covering genre, vocals, tempo, and instruments. Use this skill whenever the user asks to create, write, or generate Telugu Christian songs, Telugu worship songs, Telugu praise songs, or Telugu devotional songs. Also trigger when users mention Suno AI format with Telugu Christian content, or ask for song lyrics about Jesus, God, salvation, worship, or praise in Telugu language.
 ---
 
 # Telugu Christian Song Writer for Suno AI
 
-Generate authentic Telugu Christian song lyrics formatted for Suno AI music generation platform.
+Generate authentic Telugu Christian song lyrics formatted for Suno AI music generation platform, plus a tailored Suno "Style of Music" prompt that matches the song's genre, vocal arrangement, tempo, and instrumentation.
 
 ## When to Use This Skill
 
@@ -18,14 +18,18 @@ Trigger this skill when users request:
 
 ## Core Workflow
 
-1. **Ask selectable questions FIRST** - Use the `AskUserQuestion` tool to gather the user's preferences before writing anything (see "Required Questions" below). Skip any question the user has already answered explicitly in their message.
-2. **Generate Telugu lyrics** - Create authentic Telugu Christian lyrics based on the answers and the patterns below
-3. **Format for Suno AI** - Structure with proper tags ([Verse], [Chorus], [Bridge], [End])
-4. **Save to file** - Write the formatted lyrics to a .txt file
+1. **Ask lyric questions FIRST** — single `AskUserQuestion` call with the four lyric questions in "Required Lyric Questions". Skip any the user already answered explicitly.
+2. **Ask music production questions SECOND** — single `AskUserQuestion` call with the four music questions in "Required Music Questions". Skip any the user already answered explicitly.
+3. **Generate Telugu lyrics** — based on the lyric answers and the patterns below.
+4. **Generate the Suno style-of-music prompt** — based on the music answers; one cohesive English sentence tailored for Suno's "Style of Music" field.
+5. **Format for Suno AI** — `[Verse]`, `[Pre-Chorus]`, `[Chorus]`, `[Bridge]`, `[End]` only.
+6. **Save to file** — see "Output File Format". File goes in `created songs/`.
 
-## Required Questions (ask via AskUserQuestion)
+If the user has already given enough information for both batches in their original message, you MAY skip the questions entirely and go straight to generation. Never ask questions you already have answers to.
 
-Before generating the song, send a single `AskUserQuestion` call with the four questions below. If the user already specified one or more of these in their request (e.g., "write a contemporary song about grace"), drop those questions and only ask the remaining ones.
+## Required Lyric Questions (Batch 1, ask via AskUserQuestion)
+
+Send a single `AskUserQuestion` call with these four questions. Drop any the user already specified.
 
 **Question 1 — Theme** (header: `Theme`)
 - Worship & Praise (స్తుతి) — God's glory, majesty, holiness
@@ -33,13 +37,13 @@ Before generating the song, send a single `AskUserQuestion` call with the four q
 - Thanksgiving (కృతజ్ఞత) — gratitude for blessings and answered prayer
 - God's Love & Grace (కృప / ప్రేమ) — divine love, mercy, transformation
 
-**Question 2 — Style** (header: `Style`)
+**Question 2 — Telugu Style** (header: `Telugu Style`)
 - Traditional / formal Telugu — classical worship vocabulary, devotional tone
 - Contemporary / modern Telugu — accessible everyday phrasing, modern worship feel
 
 **Question 3 — Length** (header: `Length`)
-- Simple — 2 verses + 2 choruses (shorter)
 - Standard — 2 verses + 3 choruses + bridge (most common) — Recommended
+- Simple — 2 verses + 2 choruses (shorter)
 - Extended — 2 verses + pre-choruses + 3 choruses + bridge (longer, elaborate)
 
 **Question 4 — Mood** (header: `Mood`)
@@ -47,7 +51,53 @@ Before generating the song, send a single `AskUserQuestion` call with the four q
 - Reflective & Devotional — intimate, prayerful, surrendered
 - Powerful & Anthemic — bold, declaration of faith, prophetic
 
-After collecting answers, proceed to generate the song. Do not ask the user to confirm the plan — write the lyrics directly.
+## Required Music Questions (Batch 2, ask via AskUserQuestion)
+
+After the user answers the lyric batch, send a second `AskUserQuestion` call with these four questions. Drop any the user already specified.
+
+**Question 1 — Music Genre** (header: `Genre`)
+- Contemporary Worship — modern worship band: piano, electric guitar, ambient pads, drums
+- Traditional Hymn / Gospel — choir-led, organ or piano, classic hymn feel
+- Indian Devotional Fusion — harmonium, tabla, flute, sitar accents; bhajan-meets-worship
+- Soft Acoustic Ballad — fingerpicked guitar or solo piano, intimate
+- Anthemic Worship Rock — full band, strong drums, big chorus build
+
+**Question 2 — Vocal Arrangement** (header: `Vocals`)
+- Male solo lead
+- Female solo lead
+- Mixed duet — male and female trading lines
+- Choir / group vocals with a lead
+
+**Question 3 — Tempo** (header: `Tempo`)
+- Medium (80–110 BPM) — flowing worship — Recommended
+- Slow (60–80 BPM) — meditative, ballad-like
+- Upbeat (110–130 BPM) — celebratory, danceable
+- Fast (130+ BPM) — high energy, dynamic
+
+**Question 4 — Featured Instruments** (header: `Instruments`, **multiSelect: true**)
+- Piano
+- Acoustic guitar
+- Electric guitar
+- Strings / pads (violin, cello, ambient strings)
+- Drums / percussion
+- Tabla / Indian percussion
+- Harmonium
+- Flute / bansuri
+- Choir / backing vocals
+
+After collecting both batches of answers, proceed to generate the song. Do not ask the user to confirm the plan — write the lyrics and style prompt directly.
+
+### Sensible Defaults (for matching genre to instruments)
+
+If the user's instrument choices clash with the genre, prefer the genre choice and note it. Reasonable defaults when the user is silent:
+
+| Genre | Default instruments | Default tempo |
+|-------|---------------------|---------------|
+| Contemporary Worship | Piano, electric guitar, drums, strings/pads | Medium |
+| Traditional Hymn / Gospel | Piano or organ, choir, light strings | Medium-slow |
+| Indian Devotional Fusion | Harmonium, tabla, flute, soft acoustic guitar | Medium |
+| Soft Acoustic Ballad | Acoustic guitar OR piano, light strings | Slow |
+| Anthemic Worship Rock | Electric guitar, drums, bass, piano, choir | Upbeat |
 
 ## Telugu Christian Song Characteristics
 
@@ -87,75 +137,61 @@ Use these Telugu words naturally throughout the lyrics:
 
 ### Language Style
 
-Write in a mix of formal and contemporary Telugu:
-- Use poetic devices like alliteration and repetition
+Match the Telugu style answer:
+- **Traditional / formal:** classical vocabulary, ornate metaphor, formal verb endings (నిలుచుచున్నాను, అనుగ్రహించుము)
+- **Contemporary / modern:** everyday phrasing, conversational verb forms, accessible language
+
+Always:
+- Use poetic devices (alliteration, repetition)
 - Include biblical imagery and metaphors
-- Maintain emotional and devotional tone
-- Use direct address to God/Jesus (నీవు - neevu, నీ - nee)
+- Use direct address to God/Jesus (నీవు, నీ)
 - Create natural rhyming patterns where possible
 
 ### Song Structure Guidelines
 
-Choose structure based on the theme and user preference. **Do NOT include [Intro] or [Outro] sections.** Always start with [Verse 1] and end with [End] immediately after the final [Chorus].
+**Do NOT include [Intro] or [Outro] sections.** Always start with [Verse 1] and end with [End] immediately after the final [Chorus].
 
-**Simple Structure** (shorter songs):
-- [Verse 1]
-- [Chorus]
-- [Verse 2]
-- [Chorus]
-- [End]
+**Simple Structure:**
+- [Verse 1] → [Chorus] → [Verse 2] → [Chorus] → [End]
 
-**Standard Structure** (most common):
-- [Verse 1]
-- [Chorus]
-- [Verse 2]
-- [Chorus]
-- [Bridge]
-- [Chorus]
-- [End]
+**Standard Structure:**
+- [Verse 1] → [Chorus] → [Verse 2] → [Chorus] → [Bridge] → [Chorus] → [End]
 
-**Extended Structure** (longer, more elaborate):
-- [Verse 1]
-- [Pre-Chorus]
-- [Chorus]
-- [Verse 2]
-- [Pre-Chorus]
-- [Chorus]
-- [Bridge]
-- [Chorus]
-- [End]
+**Extended Structure:**
+- [Verse 1] → [Pre-Chorus] → [Chorus] → [Verse 2] → [Pre-Chorus] → [Chorus] → [Bridge] → [Chorus] → [End]
 
 ### Section Guidelines
 
-**[Verse]**
-- Tell the story or develop the theme
-- 4-8 lines typically
-- Build toward the chorus
-- Each verse should progress the message
-- Verse 1 should open strong with a compelling image or declaration (no separate Intro)
+**[Verse]** — 4–8 lines, develops the theme, builds toward chorus. Verse 1 opens strong (no separate Intro).
+**[Chorus]** — 4–6 lines, repetitive and memorable, often contains the song's title or key phrase.
+**[Bridge]** — 2–4 lines, contrast and elevation, often more declarative or prophetic.
+**[End]** — Closing marker on its own line. No content follows.
 
-**[Chorus]**
-- The main message and hook
-- Repetitive and memorable
-- 4-6 lines typically
-- Should be singable and emotionally powerful
-- Often includes the song's title or key phrase
+## Generating the Suno Style-of-Music Prompt
 
-**[Bridge]**
-- Provides contrast and elevation
-- 2-4 lines typically
-- Intensifies the message
-- Often more declarative or prophetic
+Compose ONE concise English sentence (or two short sentences) that Suno will read in its "Style of Music" field. Include, in this order:
 
-**[End]**
-- Place immediately after the final [Chorus] on its own line
-- No content follows — it is a closing marker, not a section with lyrics
+1. **Genre / overall feel** — e.g., "Indian devotional fusion worship", "contemporary Christian worship ballad"
+2. **Vocal arrangement** — e.g., "female solo lead with male backing harmonies", "male lead with choir"
+3. **Language** — always include "Telugu vocals"
+4. **Tempo** — e.g., "medium tempo around 95 BPM"
+5. **Key instruments** — 3–5 of the user's selected instruments, no more
+6. **Mood adjective** — match the lyric mood: "reverent and reflective", "joyful and celebratory", "powerful and anthemic"
 
-## Output Format
+**Example style prompt:**
+> Indian devotional fusion worship with Telugu vocals, female solo lead and soft choir backing, medium tempo around 95 BPM, harmonium, tabla, soft acoustic guitar, flute, and ambient strings, reverent and reflective devotional tone.
 
-Format the lyrics exactly like this for Suno AI. **No [Intro], no [Outro] — start with [Verse 1] and end with [End] right after the final [Chorus].**
+Keep it under 50 words. No quotation marks, no embedded section tags.
+
+## Output File Format
+
+The output `.txt` file has TWO labeled sections separated by a blank line. The first section is the Suno style prompt; the second is the lyrics. The user pastes each into the matching Suno field.
 
 ```
+=== SUNO STYLE PROMPT (paste into "Style of Music" field) ===
+<one cohesive English sentence per the rules above>
+
+=== LYRICS (paste into "Lyrics" field) ===
 [Verse 1]
 Telugu lyrics line 1
 Telugu lyrics line 2
@@ -163,85 +199,65 @@ Telugu lyrics line 3
 Telugu lyrics line 4
 
 [Chorus]
-Telugu lyrics line 1
-Telugu lyrics line 2
-Telugu lyrics line 3
-Telugu lyrics line 4
+...
 
 [Verse 2]
-Telugu lyrics line 1
-Telugu lyrics line 2
-Telugu lyrics line 3
-Telugu lyrics line 4
+...
 
 [Chorus]
-Telugu lyrics line 1
-Telugu lyrics line 2
-Telugu lyrics line 3
-Telugu lyrics line 4
+...
 
 [Bridge]
-Telugu lyrics line 1
-Telugu lyrics line 2
-Telugu lyrics line 3
-Telugu lyrics line 4
+...
 
 [Chorus]
-Telugu lyrics line 1
-Telugu lyrics line 2
-Telugu lyrics line 3
-Telugu lyrics line 4
+...
 [End]
 ```
 
 ## Important Guidelines
 
-1. **Authenticity**: Write lyrics that sound natural to Telugu Christian worship tradition
-2. **Theological soundness**: Ensure lyrics align with Christian biblical teachings
-3. **Emotional resonance**: Create lyrics that inspire worship, devotion, and connection with God
-4. **Singability**: Keep phrases flowing and easy to sing
-5. **No musical directions**: Do NOT include parenthetical musical notes like "(Soft piano)" or "(Guitar solo)" - focus only on Telugu lyrics
-6. **Proper Telugu script**: Always use Telugu script (తెలుగు), not transliteration
-7. **File naming**: Save as `telugu_christian_song_[theme]_[timestamp].txt`
-8. **No [Intro] or [Outro]**: Always begin with [Verse 1] and close with `[End]` immediately after the last [Chorus]. Do not add any sections or lines outside of [Verse], [Pre-Chorus], [Chorus], [Bridge], and the final [End] marker.
+1. **Authenticity** — lyrics must sound natural to Telugu Christian worship tradition.
+2. **Theological soundness** — align with mainstream Christian biblical teaching.
+3. **Singability** — phrases flow easily when sung.
+4. **No musical directions inside the lyrics** — never embed `(soft piano)`, `(guitar solo)`, `(tabla fill)` between or inside verses. All production notes go in the top "Style of Music" block.
+5. **Proper Telugu script** — use తెలుగు, not transliteration.
+6. **Telugu vocals always declared** — the style prompt must explicitly say "Telugu vocals".
+7. **No [Intro] or [Outro]** — begin with `[Verse 1]`, close with `[End]` immediately after the last `[Chorus]`.
+8. **File naming** — `telugu_christian_song_<theme-slug>_<timestamp>.txt`.
+9. **File location** — always save to `created songs/` (relative to project root). Never the project root itself.
 
 ## Example Workflow
 
 **Example 1 — user gives no details: "Write me a Telugu Christian song"**
 
-1. Call `AskUserQuestion` with all four questions (Theme, Style, Length, Mood)
-2. Receive answers, e.g., Worship & Praise / Contemporary / Standard / Joyful
-3. Generate Telugu lyrics matching those choices
-4. Format with Suno AI tags ([Verse 1] → [Chorus] → ... → [End])
-5. Save to file: `telugu_christian_song_worship_[timestamp].txt`
+1. Call `AskUserQuestion` (Batch 1: Theme, Telugu Style, Length, Mood).
+2. Call `AskUserQuestion` (Batch 2: Genre, Vocals, Tempo, Instruments).
+3. Generate Telugu lyrics + matching Suno style prompt.
+4. Save to `created songs/telugu_christian_song_worship_<timestamp>.txt`.
 
-**Example 2 — user pre-specifies some details: "Generate a contemporary Telugu Christian song about God's grace, medium length"**
+**Example 2 — user pre-specifies lyric details: "Generate a contemporary Telugu Christian song about God's grace, medium length"**
 
-1. User already gave Theme (grace), Style (contemporary), Length (medium → Standard). Only Mood is missing.
-2. Call `AskUserQuestion` with **only** the Mood question
-3. Generate Telugu lyrics on God's grace, contemporary style, standard structure, with the chosen mood
-4. Save to file: `telugu_christian_song_gods_grace_[timestamp].txt`
+1. Theme (grace), Telugu Style (contemporary), Length (Standard) given. Ask only Mood in Batch 1.
+2. Ask all four music questions in Batch 2.
+3. Generate, format, save.
 
-**Example 3 — user gives full details: "Reflective traditional Telugu song about thanksgiving, simple structure"**
+**Example 3 — user fully specifies: "Reflective traditional Telugu song about thanksgiving, simple structure, female solo lead with harmonium and tabla, slow tempo, Indian devotional fusion"**
 
-1. All four answers are present in the request — skip `AskUserQuestion` entirely
-2. Go straight to generating the lyrics
+1. All lyric and music answers present. Skip both `AskUserQuestion` calls.
+2. Generate, format, save.
 
 ## Tips for Quality Lyrics
 
-- **Start strong**: Open with a compelling image or declaration
-- **Build progression**: Each verse should deepen the theme
-- **Make chorus memorable**: Use repetition and powerful imagery
-- **Use biblical references**: Incorporate scriptural concepts naturally
-- **Maintain consistency**: Keep the theme focused throughout
-- **End with impact**: Conclude with affirmation or declaration of faith
+- **Start strong**: open with a compelling image or declaration.
+- **Build progression**: each verse should deepen the theme.
+- **Make chorus memorable**: use repetition and powerful imagery.
+- **Use biblical references**: incorporate scriptural concepts naturally.
+- **End with impact**: conclude with affirmation or declaration of faith.
 
-## Handling User Requests
+## Tips for Quality Style Prompts
 
-If user specifies:
-- **Theme**: Focus lyrics on that specific theme
-- **Style**: Adjust between traditional (formal Telugu) or contemporary (modern expressions)
-- **Length**: Adjust number of verses and structure complexity
-- **Specific words/phrases**: Incorporate their requested Telugu words or concepts
-
-If user doesn't specify details, create a balanced worship song with standard structure focusing on praise and worship themes.
+- **Be concrete**: "harmonium and tabla" beats "Indian instruments".
+- **Match mood to tempo**: don't say "meditative" with "fast tempo".
+- **Don't list every instrument** — pick the 3–5 most defining ones; Suno does best with focused descriptions.
+- **Always name the language** — "Telugu vocals" anchors Suno to the right phonetic model.
