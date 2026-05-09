@@ -1,0 +1,46 @@
+=== SUNO STYLE PROMPT (paste into "Style of Music" field) ===
+Indian devotional fusion worship with Telugu vocals, female solo lead and soft male backing harmonies, medium tempo around 95 BPM, harmonium, tabla, bansuri flute, soft acoustic guitar, and ambient strings, intimate devotional and surrendered tone.
+
+=== LYRICS (paste into "Lyrics" field) ===
+[Chorus]
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను నిలిచెదనయ్యా ప్రియుడా
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను కరిగెదనయ్యా యేసయ్యా
+
+[Verse 1]
+షారోను పుష్పమా… లోయలోని పద్మమా…
+నిను నేను కనుగొంటినయ్యా
+నా హృదయపు రాగమై నిలిచావు
+నా శ్వాసలో శ్వాసవై మిగిలావు
+
+[Chorus]
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను నిలిచెదనయ్యా ప్రియుడా
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను కరిగెదనయ్యా యేసయ్యా
+
+[Verse 2]
+నా కనుల తీయని కాంక్ష నీవే
+నా మనసు మౌనపు పిలుపు నీవే
+లోకమంతయు మరిచిపోయి నేడు
+నీ ధ్యానములో మునిగిపోతున్నాను
+
+[Chorus]
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను నిలిచెదనయ్యా ప్రియుడా
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను కరిగెదనయ్యా యేసయ్యా
+
+[Verse 3]
+నా జీవమంతయు నీ హస్తములోనే
+సమర్పించెదనయ్యా దయామయా
+నేను నీది… నీవు నాది…
+ఈ బంధం శాశ్వతమైనదయ్యా
+
+[Chorus]
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను నిలిచెదనయ్యా ప్రియుడా
+నీ సన్నిధిలో… నీ చెంతనే…
+నేను కరిగెదనయ్యా యేసయ్యా
+[End]

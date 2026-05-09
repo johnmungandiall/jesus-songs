@@ -1,0 +1,6 @@
+STYLE: 13 — SATB Choir Hymn
+GOOD FOR: Concert hymn, formal liturgy, sacred choral
+TEMPO: 80 BPM (medium)
+
+=== SUNO STYLE PROMPT ===
+Four-part SATB choir Christian hymn with Telugu vocals, full mixed choir without solo lead, medium tempo around 80 BPM, pipe organ and orchestral string accompaniment, formal sacred concert-hymn tone.

@@ -1,0 +1,46 @@
+=== SUNO STYLE PROMPT (paste into "Style of Music" field) ===
+Sorrowful Telugu Christian Good Friday lament with Telugu vocals, male solo lead with quiet female harmony in the bridge, very slow tempo around 60 BPM, sparse piano, mournful cello, soft acoustic guitar, and warm violin, somber and grateful contemplative tone reflecting the cross.
+
+=== LYRICS (paste into "Lyrics" field) ===
+[Chorus]
+నా కొరకు మరణించావే యేసయ్యా
+నా పాపమునకు బలి అయ్యావే
+నా కొరకు మరణించావే యేసయ్యా
+నా కొరకే నీ ప్రాణము వదిలావే
+
+[Verse 1]
+గెత్సెమనె తోటలో నీ స్వేదము
+రక్తపు బొట్లుగా పడిపోయెను
+నా బరువును నీ భుజములపై మోసి
+నా శిక్షను నీవే భరించితివే
+
+[Chorus]
+నా కొరకు మరణించావే యేసయ్యా
+నా పాపమునకు బలి అయ్యావే
+నా కొరకు మరణించావే యేసయ్యా
+నా కొరకే నీ ప్రాణము వదిలావే
+
+[Verse 2]
+ముళ్ళకిరీటము నీ శిరమునకు
+కొరడా దెబ్బలు నీ వీపునకు
+మేకులు నీ చేతులను చీల్చినా
+నన్ను తలచుచు ఓర్చితివయ్యా
+
+[Chorus]
+నా కొరకు మరణించావే యేసయ్యా
+నా పాపమునకు బలి అయ్యావే
+నా కొరకు మరణించావే యేసయ్యా
+నా కొరకే నీ ప్రాణము వదిలావే
+
+[Verse 3]
+కల్వరి కొండపై ఎత్తబడితివే
+పంచగాయములతో రుధిరం కారెను
+సమాప్తమైనది అని పిలిచావే
+నా రుణమంతా తీర్చితివే ప్రభువా
+
+[Chorus]
+నా కొరకు మరణించావే యేసయ్యా
+నా పాపమునకు బలి అయ్యావే
+నా కొరకు మరణించావే యేసయ్యా
+నా కొరకే నీ ప్రాణము వదిలావే
+[End]

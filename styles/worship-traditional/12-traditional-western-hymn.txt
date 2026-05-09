@@ -1,0 +1,6 @@
+STYLE: 12 — Traditional Western Hymn
+GOOD FOR: Classical hymn, formal worship, doctrine-rich lyrics
+TEMPO: 75 BPM (medium-slow)
+
+=== SUNO STYLE PROMPT ===
+Traditional Western-style Christian hymn with Telugu vocals, mixed SATB choir with male lead, medium-slow tempo around 75 BPM, pipe organ, piano, and string section, dignified classical hymn tone.

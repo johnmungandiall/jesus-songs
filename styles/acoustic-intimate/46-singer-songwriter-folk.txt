@@ -1,0 +1,6 @@
+STYLE: 46 — Singer-Songwriter Folk
+GOOD FOR: Narrative testimony, story-songs
+TEMPO: 85 BPM (medium)
+
+=== SUNO STYLE PROMPT ===
+Singer-songwriter folk Telugu Christian worship with Telugu vocals, storytelling male lead, medium tempo around 85 BPM, acoustic guitar, harmonica, mandolin, light percussion, and bass, narrative folk-worship tone in the Andrew-Peterson tradition.

@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary Menu" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list:
+            - listitem [ref=e6]:
+              - link "Telugu Songs" [ref=e7] [cursor=pointer]:
+                - /url: https://christianlyricz.com/
+            - listitem [ref=e8]:
+              - link "English Songs" [ref=e9] [cursor=pointer]:
+                - /url: https://christianlyricz.com/english-songs/
+            - listitem [ref=e10]:
+              - link "Hindi Songs" [ref=e11] [cursor=pointer]:
+                - /url: https://christianlyricz.com/hindi-songs/
+            - listitem [ref=e12]:
+              - link "Song Request" [ref=e13] [cursor=pointer]:
+                - /url: https://christianlyricz.com/song-request/
+            - listitem [ref=e14]:
+              - link "Post Lyrics" [ref=e15] [cursor=pointer]:
+                - /url: https://christianlyricz.com/post-lyrics/
+        - link "Search" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e17]: 
+          - generic [ref=e18]: Search
+    - banner [ref=e19]:
+      - paragraph [ref=e22]:
+        - link "CHRISTIAN LYRICZ" [ref=e23] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+    - generic [ref=e25]:
+      - main [ref=e27]:
+        - article [ref=e28]:
+          - generic [ref=e29]:
+            - heading "దీవించావే" [level=1] [ref=e31]
+            - text: —
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - paragraph [ref=e34]:
+                - strong [ref=e35]: "పాట రచయిత:"
+                - text: పి సతీష్ కుమార్, సునీల్
+                - strong [ref=e36]: "Lyricist:"
+                - text: P Satish Kumar, Sunil
+              - generic [ref=e38]:
+                - tablist:
+                  - tab "Telugu Lyrics" [ref=e39] [cursor=pointer]
+                  - tab "English Lyrics" [ref=e40] [cursor=pointer]
+                  - tab "Audio" [ref=e41] [cursor=pointer]
+                - tabpanel "Telugu Lyrics" [ref=e42]:
+                  - paragraph
+                  - paragraph [ref=e43]:
+                    - text: దీవించావే సమృద్ధిగా – నీ సాక్షిగా కొనసాగమని
+                    - text: ప్రేమించావే నను ప్రాణంగా – నీ కోసమే నను బ్రతకమని
+                    - text: దారులలో.. ఎడారులలో.. సెలయేరులై ప్రవహించుమయా..
+                    - text: చీకటిలో.. కారు చీకటిలో.. అగ్ని స్తంభమై నను నడుపుమయా..
+                    - strong [ref=e44]: "||దీవించావే||"
+                  - paragraph [ref=e45]:
+                    - text: నువ్వే లేకుండా నేనుండలేను యేసయ్యా
+                    - text: నీ ప్రేమే లేకుండా జీవించలేను నేనయ్యా
+                    - text: నా ఒంటరి పయనంలో నా జంటగ నిలిచావే
+                    - text: నే నడిచే దారుల్లో నా తోడై ఉన్నావే
+                    - strong [ref=e46]: (2)
+                    - text: ఊహలలో.. నా ఊసులలో.. నా ధ్యాస బాసవైనావే..
+                    - text: శుద్ధతలో.. పరిశుద్ధతలో.. నిను పోలి నన్నిల సాగమని..
+                    - strong [ref=e47]: "||దీవించావే||"
+                  - paragraph [ref=e48]:
+                    - text: కొలతే లేదయ్యా నీ జాలి నాపై యేసయ్యా
+                    - text: కొరతే లేదయ్యా సమృద్ధి జీవం నీవయ్యా
+                    - text: నా కన్నీరంత తుడిచావే కన్నతల్లిలా
+                    - text: కొదువంతా తీర్చావే కన్నతండ్రిలా
+                    - strong [ref=e49]: (2)
+                    - text: ఆశలలో.. నిరాశలలో.. నేనున్నా నీకని అన్నావే..
+                    - text: పోరులలో.. పోరాటములో.. నా పక్షముగానే నిలిచావే..
+                    - strong [ref=e50]: "||దీవించావే||"
+              - paragraph [ref=e51]:
+                - strong [ref=e52]: "Download Lyrics as: PPT"
+              - link "Print Friendly, PDF & Email" [ref=e54] [cursor=pointer]:
+                - /url: "#"
+                - img "Print Friendly, PDF & Email" [ref=e55]
+            - generic [ref=e57]:
+              - heading "Share this:" [level=3] [ref=e58]
+              - list [ref=e60]:
+                - listitem [ref=e61]:
+                  - link "Share on WhatsApp (Opens in new window)" [ref=e62] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2024/02/20/deevinchaave/?share=jetpack-whatsapp&nb=1
+                    - text: 
+                    - generic [ref=e63]: WhatsApp
+                - listitem
+                - listitem [ref=e64]:
+                  - link "Tweet" [ref=e65] [cursor=pointer]:
+                    - /url: https://twitter.com/share
+                - listitem
+        - navigation [ref=e66]:
+          - heading "Post navigation" [level=2] [ref=e67]
+          - generic [ref=e68]:
+            - generic [ref=e70]:
+              - generic [ref=e71]: Previous
+              - link "కరిగే కొడుకు" [ref=e73] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2024/01/29/karige-koduku/
+            - generic [ref=e75]:
+              - generic [ref=e76]: Next
+              - link "స్తుతి ప్రశంస పాడుచు" [ref=e78] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2024/02/20/sthuthi-prashamsa-paaduchu/
+        - generic [ref=e81]:
+          - heading "— Leave a Reply" [level=3] [ref=e82]: — Leave a Reply
+          - iframe [ref=e84]:
+            
+      - complementary [ref=e85]:
+        - generic [ref=e86]:
+          - heading "— Search" [level=2] [ref=e87]
+          - search [ref=e88]:
+            - generic [ref=e89]:
+              - generic [ref=e90]: "Search for:"
+              - searchbox "Search for:" [ref=e91]
+            - button "Search" [ref=e92] [cursor=pointer]
+        - figure [ref=e94]:
+          - iframe [ref=e96]:
+            - generic [active] [ref=f21e1]:
+              - generic "YouTube Video Player" [ref=f21e3]
+              - generic [ref=f21e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f21e10] [cursor=pointer]:
+                      - generic [ref=f21e13]:
+                        - img
+                    - button "Hide player controls" [ref=f21e14] [cursor=pointer]
+                    - generic [ref=f21e21]:
+                      - generic [ref=f21e22]:
+                        - link "శాశ్వతమైనది నీవు నా యెడ చూపిన కృప / Saswathamainadi neevu naa yeda/ Jesus songs telugu / jesus songs" [ref=f21e23] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=PgdrSxJf0Hw
+                        - link "Telugu Christian Songs" [ref=f21e24] [cursor=pointer]:
+                          - /url: /channel/UCgBkKp4Y22zsImK6tJ2Yf-A
+                          - generic [ref=f21e25]: Telugu Christian Songs
+                      - generic [ref=f21e26]:
+                        - button "thumbnail-image" [ref=f21e27] [cursor=pointer]:
+                          - img "thumbnail-image" [ref=f21e28]
+                        - generic [ref=f21e30]:
+                          - generic: Telugu Christian Songs
+                          - generic: 26.9K subscribers
+        - generic [ref=e97]:
+          - heading "— Recent Posts" [level=2] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]:
+              - link "పరలోకమే నా స్వాస్థ్యము" [ref=e101] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/31/paralokame-naa-swaasthyamu/
+            - listitem [ref=e102]:
+              - link "మరువలేను మరువలేను" [ref=e103] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/
+            - listitem [ref=e104]:
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e105] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+            - listitem [ref=e106]:
+              - link "రాజుల రాజైన యేసు రాజు" [ref=e107] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/
+            - listitem [ref=e108]:
+              - link "ప్రకటింతును నీ సువార్తను" [ref=e109] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/07/prakatinthunu-nee-suvaarthanu/
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "Christmas Songs" [ref=e113] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/christmas-songs/
+          - listitem [ref=e114]:
+            - link "Comfort Songs" [ref=e115] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/comfort-songs/
+          - listitem [ref=e116]:
+            - link "Commitment Songs" [ref=e117] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/commitment-songs/
+          - listitem [ref=e118]:
+            - link "Correction Songs" [ref=e119] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/correction-songs/
+          - listitem [ref=e120]:
+            - link "Easter Songs" [ref=e121] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/easter-songs/
+          - listitem [ref=e122]:
+            - link "Encouraging Songs" [ref=e123] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/encouraging-songs/
+          - listitem [ref=e124]:
+            - link "English" [ref=e125] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/english/
+          - listitem [ref=e126]:
+            - link "Good Friday Songs" [ref=e127] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/good-friday-songs/
+          - listitem [ref=e128]:
+            - link "Gospel Songs" [ref=e129] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/gospel-songs/
+          - listitem [ref=e130]:
+            - link "Hindi" [ref=e131] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hindi/
+          - listitem [ref=e132]:
+            - link "Hope Songs" [ref=e133] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hope-songs/
+          - listitem [ref=e134]:
+            - link "Kids Songs" [ref=e135] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/kids-songs/
+          - listitem [ref=e136]:
+            - link "Marriage Songs" [ref=e137] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/marriage-songs/
+          - listitem [ref=e138]:
+            - link "Offering Songs" [ref=e139] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/offering-songs/
+          - listitem [ref=e140]:
+            - link "Praise Songs" [ref=e141] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/praise-songs/
+          - listitem [ref=e142]:
+            - link "Prayer Songs" [ref=e143] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/prayer-songs/
+          - listitem [ref=e144]:
+            - link "Repentance Songs" [ref=e145] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/repentance-songs/
+          - listitem [ref=e146]:
+            - link "Second Coming Songs" [ref=e147] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/second-coming-songs/
+          - listitem [ref=e148]:
+            - link "Telugu" [ref=e149] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/telugu/
+          - listitem [ref=e150]:
+            - link "Thanksgiving Songs" [ref=e151] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/thanksgiving-songs/
+          - listitem [ref=e152]:
+            - link "Worship Songs" [ref=e153] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/worship-songs/
+    - contentinfo [ref=e154]:
+      - generic [ref=e156]:
+        - text: © 2026
+        - link "CHRISTIAN LYRICZ" [ref=e157] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+        - text: Bloggo theme by
+        - link "justgoodthemes.com" [ref=e158] [cursor=pointer]:
+          - /url: https://justgoodthemes.com/
+        - link "Back to the top" [ref=e159] [cursor=pointer]:
+          - /url: "#page"
+          - generic [ref=e160]: 
+          - generic [ref=e161]: Back to the top
+  - search [ref=e164]:
+    - text: 
+    - generic [ref=e165]:
+      - generic [ref=e166]: "Search for:"
+      - searchbox "Search for:" [ref=e167]
+    - button "Search" [ref=e168] [cursor=pointer]
+  - button "Dark Mode Toggle" [ref=e170] [cursor=pointer]:
+    - img [ref=e174]
+  - link "HOME" [ref=e176] [cursor=pointer]:
+    - /url: https://christianlyricz.com/
+  - status [ref=e177]

@@ -1,0 +1,6 @@
+STYLE: 16 — Gregorian Chant Style
+GOOD FOR: Meditative liturgy, contemplative worship
+TEMPO: 50 BPM (very slow)
+
+=== SUNO STYLE PROMPT ===
+Gregorian-chant-style Telugu Christian worship with Telugu vocals, monastic male choir in unison and simple harmony, very slow tempo around 50 BPM, no instruments or distant pipe organ drone, meditative ancient-sacred tone.

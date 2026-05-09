@@ -1,0 +1,257 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary Menu" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list:
+            - listitem [ref=e6]:
+              - link "Telugu Songs" [ref=e7] [cursor=pointer]:
+                - /url: https://christianlyricz.com/
+            - listitem [ref=e8]:
+              - link "English Songs" [ref=e9] [cursor=pointer]:
+                - /url: https://christianlyricz.com/english-songs/
+            - listitem [ref=e10]:
+              - link "Hindi Songs" [ref=e11] [cursor=pointer]:
+                - /url: https://christianlyricz.com/hindi-songs/
+            - listitem [ref=e12]:
+              - link "Song Request" [ref=e13] [cursor=pointer]:
+                - /url: https://christianlyricz.com/song-request/
+            - listitem [ref=e14]:
+              - link "Post Lyrics" [ref=e15] [cursor=pointer]:
+                - /url: https://christianlyricz.com/post-lyrics/
+        - link "Search" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e17]: 
+          - generic [ref=e18]: Search
+    - banner [ref=e19]:
+      - paragraph [ref=e22]:
+        - link "CHRISTIAN LYRICZ" [ref=e23] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+    - generic [ref=e25]:
+      - main [ref=e27]:
+        - article [ref=e28]:
+          - generic [ref=e29]:
+            - heading "రాజుల రాజైన యేసు రాజు" [level=1] [ref=e31]
+            - text: —
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - paragraph [ref=e34]:
+                - text: "పాట రచయిత:"
+                - text: "Lyricist:"
+              - generic [ref=e36]:
+                - tablist [ref=e37]:
+                  - tab "Telugu Lyrics" [expanded] [selected] [ref=e38]:
+                    - link "Telugu Lyrics" [ref=e39]:
+                      - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/#tabs-16556-0-0
+                  - tab "English Lyrics" [ref=e40]:
+                    - link "English Lyrics" [ref=e41] [cursor=pointer]:
+                      - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/#tabs-16556-0-1
+                  - tab "Audio" [ref=e42]:
+                    - link "Audio" [ref=e43] [cursor=pointer]:
+                      - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/#tabs-16556-0-2
+                - tabpanel "Telugu Lyrics" [ref=e44]:
+                  - paragraph [ref=e45]:
+                    - text: రాజుల రాజైన యేసు రాజు భూజనులనేలున్
+                    - text: హల్లెలూయా హల్లెలూయా దేవుని స్తుతియించుడి
+                    - strong [ref=e46]: (2)
+                  - paragraph [ref=e47]:
+                    - text: హల్లెలూయ యేసు ప్రభున్ ఎల్లరు స్తుతియించుడి
+                    - text: వల్లభుని చర్యలను తిలకించి స్తుతియించుడి
+                    - text: బలమైన పని చేయు బలవంతుని స్తుతియించుడి
+                    - text: ఎల్లరిని స్వీకరించు యేసుని స్తుతియించుడి
+                    - strong [ref=e48]: "||రాజుల||"
+                  - paragraph [ref=e49]:
+                    - text: తంబురతోను వీణతోను ప్రభువుని స్తుతియించుడి
+                    - text: పాపమును రక్తముతో తుడిచెను స్తుతియించుడి
+                    - text: బూరతోను తాళముతో మ్రోగించి స్తుతియించుడి
+                    - text: నిరంతరము మారని యేసుని స్తుతియించుడి
+                    - strong [ref=e50]: "||రాజుల||"
+                  - paragraph [ref=e51]:
+                    - text: సూర్య చంద్రు లార-ఇల దేవుని స్తుతియించుడి
+                    - text: హృదయమును వెలిగించిన యేసుని స్తుతియించుడి
+                    - text: అగ్నివడ గండ్లారమీరు కర్తను స్తుతియించుడి
+                    - text: హృదయమును చేధించిన నాథుని స్తుతియించుడి
+                    - strong [ref=e52]: "||రాజుల||"
+                  - paragraph [ref=e53]:
+                    - text: యువకులారా పిల్లలారా దేవుని స్తుతియించుడి
+                    - text: జీవితమున్ ప్రభుపనికై సమర్పించి స్తుతియించుడి
+                    - text: పెద్దలారా ప్రభువులారా యెహోవాను స్తుతియించుడి
+                    - text: ఆస్తులను యేసునకై అర్పించి స్తుతియించుడి
+                    - strong [ref=e54]: "||రాజుల||"
+                  - paragraph [ref=e55]:
+                    - text: అగాథమైన జలములారా దేవుని స్తుతియించుడి
+                    - text: అలలవలె సేవకులు లేచిరి స్తుతియించుడి
+                    - text: దూతలారా పూర్వ భక్తులారా దేవుని స్తుతియించుడి
+                    - text: పరమందు పరిశుద్ధులు ఎల్లరు స్తుతియించుడి
+                    - strong [ref=e56]: "||రాజుల||"
+              - paragraph [ref=e57]: "Download Lyrics as: PPT"
+              - link "Print Friendly, PDF & Email" [ref=e59] [cursor=pointer]:
+                - /url: "#"
+                - img "Print Friendly, PDF & Email" [ref=e60]
+            - generic [ref=e62]:
+              - heading "Share this:" [level=3] [ref=e63]
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - link "Share on WhatsApp (Opens in new window)" [ref=e67] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/?share=jetpack-whatsapp&nb=1
+                    - text: 
+                    - generic [ref=e68]: WhatsApp
+                - listitem
+                - listitem [ref=e69]:
+                  - iframe [ref=e70]:
+                    - link "Post" [ref=f49e4] [cursor=pointer]:
+                      - /url: https://x.com/intent/tweet?original_referer=https%3A%2F%2Fchristianlyricz.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=%E0%B0%B0%E0%B0%BE%E0%B0%9C%E0%B1%81%E0%B0%B2%20%E0%B0%B0%E0%B0%BE%E0%B0%9C%E0%B1%88%E0%B0%A8%20%E0%B0%AF%E0%B1%87%E0%B0%B8%E0%B1%81%20%E0%B0%B0%E0%B0%BE%E0%B0%9C%E0%B1%81&url=https%3A%2F%2Fchristianlyricz.com%2F2026%2F03%2F23%2Fraajula-raajaina-yesu-raaju%2F
+                      - generic [ref=f49e6]: Post
+                - listitem
+        - navigation [ref=e71]:
+          - heading "Post navigation" [level=2] [ref=e72]
+          - generic [ref=e73]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: Previous
+              - link "ప్రకటింతును నీ సువార్తను" [ref=e78] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/07/prakatinthunu-nee-suvaarthanu/
+            - generic [ref=e80]:
+              - generic [ref=e81]: Next
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e83] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+        - generic [ref=e86]:
+          - heading "— Leave a Reply" [level=3] [ref=e87]: — Leave a Reply
+          - iframe [ref=e89]:
+            
+      - complementary [ref=e90]:
+        - generic [ref=e91]:
+          - heading "— Search" [level=2] [ref=e92]
+          - search [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: "Search for:"
+              - searchbox "Search for:" [ref=e96]
+            - button "Search" [ref=e97] [cursor=pointer]
+        - figure [ref=e99]:
+          - iframe [ref=e101]:
+            - generic [active] [ref=f47e1]:
+              - generic "YouTube Video Player" [ref=f47e3]
+              - generic [ref=f47e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f47e10] [cursor=pointer]:
+                      - generic [ref=f47e13]:
+                        - img
+                    - button "Hide player controls" [ref=f47e14] [cursor=pointer]
+                    - generic [ref=f47e21]:
+                      - generic [ref=f47e22]:
+                        - link "శాశ్వతమైనది నీవు నా యెడ చూపిన కృప / Saswathamainadi neevu naa yeda/ Jesus songs telugu / jesus songs" [ref=f47e23] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=PgdrSxJf0Hw
+                        - link "Telugu Christian Songs" [ref=f47e24] [cursor=pointer]:
+                          - /url: /channel/UCgBkKp4Y22zsImK6tJ2Yf-A
+                          - generic [ref=f47e25]: Telugu Christian Songs
+                      - generic [ref=f47e26]:
+                        - button "thumbnail-image" [ref=f47e27] [cursor=pointer]:
+                          - img "thumbnail-image" [ref=f47e28]
+                        - generic [ref=f47e30]:
+                          - generic: Telugu Christian Songs
+                          - generic: 26.9K subscribers
+        - generic [ref=e102]:
+          - heading "— Recent Posts" [level=2] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]:
+              - link "పరలోకమే నా స్వాస్థ్యము" [ref=e106] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/31/paralokame-naa-swaasthyamu/
+            - listitem [ref=e107]:
+              - link "మరువలేను మరువలేను" [ref=e108] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/
+            - listitem [ref=e109]:
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e110] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+            - listitem [ref=e111]:
+              - link "రాజుల రాజైన యేసు రాజు" [ref=e112] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/
+            - listitem [ref=e113]:
+              - link "ప్రకటింతును నీ సువార్తను" [ref=e114] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/07/prakatinthunu-nee-suvaarthanu/
+        - list [ref=e116]:
+          - listitem [ref=e117]:
+            - link "Christmas Songs" [ref=e118] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/christmas-songs/
+          - listitem [ref=e119]:
+            - link "Comfort Songs" [ref=e120] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/comfort-songs/
+          - listitem [ref=e121]:
+            - link "Commitment Songs" [ref=e122] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/commitment-songs/
+          - listitem [ref=e123]:
+            - link "Correction Songs" [ref=e124] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/correction-songs/
+          - listitem [ref=e125]:
+            - link "Easter Songs" [ref=e126] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/easter-songs/
+          - listitem [ref=e127]:
+            - link "Encouraging Songs" [ref=e128] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/encouraging-songs/
+          - listitem [ref=e129]:
+            - link "English" [ref=e130] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/english/
+          - listitem [ref=e131]:
+            - link "Good Friday Songs" [ref=e132] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/good-friday-songs/
+          - listitem [ref=e133]:
+            - link "Gospel Songs" [ref=e134] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/gospel-songs/
+          - listitem [ref=e135]:
+            - link "Hindi" [ref=e136] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hindi/
+          - listitem [ref=e137]:
+            - link "Hope Songs" [ref=e138] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hope-songs/
+          - listitem [ref=e139]:
+            - link "Kids Songs" [ref=e140] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/kids-songs/
+          - listitem [ref=e141]:
+            - link "Marriage Songs" [ref=e142] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/marriage-songs/
+          - listitem [ref=e143]:
+            - link "Offering Songs" [ref=e144] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/offering-songs/
+          - listitem [ref=e145]:
+            - link "Praise Songs" [ref=e146] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/praise-songs/
+          - listitem [ref=e147]:
+            - link "Prayer Songs" [ref=e148] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/prayer-songs/
+          - listitem [ref=e149]:
+            - link "Repentance Songs" [ref=e150] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/repentance-songs/
+          - listitem [ref=e151]:
+            - link "Second Coming Songs" [ref=e152] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/second-coming-songs/
+          - listitem [ref=e153]:
+            - link "Telugu" [ref=e154] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/telugu/
+          - listitem [ref=e155]:
+            - link "Thanksgiving Songs" [ref=e156] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/thanksgiving-songs/
+          - listitem [ref=e157]:
+            - link "Worship Songs" [ref=e158] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/worship-songs/
+    - contentinfo [ref=e159]:
+      - generic [ref=e161]:
+        - text: © 2026
+        - link "CHRISTIAN LYRICZ" [ref=e162] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+        - text: Bloggo theme by
+        - link "justgoodthemes.com" [ref=e163] [cursor=pointer]:
+          - /url: https://justgoodthemes.com/
+        - link "Back to the top" [ref=e164] [cursor=pointer]:
+          - /url: "#page"
+          - generic [ref=e165]: 
+          - generic [ref=e166]: Back to the top
+  - search [ref=e169]:
+    - text: 
+    - generic [ref=e170]:
+      - generic [ref=e171]: "Search for:"
+      - searchbox "Search for:" [ref=e172]
+    - button "Search" [ref=e173] [cursor=pointer]
+  - button "Dark Mode Toggle" [ref=e175] [cursor=pointer]:
+    - img [ref=e179]
+  - link "HOME" [ref=e181] [cursor=pointer]:
+    - /url: https://christianlyricz.com/
+  - status [ref=e182]

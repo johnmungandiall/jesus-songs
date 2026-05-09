@@ -1,0 +1,322 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary Menu" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list:
+            - listitem [ref=e6]:
+              - link "Telugu Songs" [ref=e7] [cursor=pointer]:
+                - /url: https://christianlyricz.com/
+            - listitem [ref=e8]:
+              - link "English Songs" [ref=e9] [cursor=pointer]:
+                - /url: https://christianlyricz.com/english-songs/
+            - listitem [ref=e10]:
+              - link "Hindi Songs" [ref=e11] [cursor=pointer]:
+                - /url: https://christianlyricz.com/hindi-songs/
+            - listitem [ref=e12]:
+              - link "Song Request" [ref=e13] [cursor=pointer]:
+                - /url: https://christianlyricz.com/song-request/
+            - listitem [ref=e14]:
+              - link "Post Lyrics" [ref=e15] [cursor=pointer]:
+                - /url: https://christianlyricz.com/post-lyrics/
+        - link "Search" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e17]: 
+          - generic [ref=e18]: Search
+    - banner [ref=e19]:
+      - paragraph [ref=e22]:
+        - link "CHRISTIAN LYRICZ" [ref=e23] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+    - generic [ref=e25]:
+      - main [ref=e27]:
+        - article [ref=e28]:
+          - generic [ref=e29]:
+            - heading "యెహోవా నీ నామము" [level=1] [ref=e31]
+            - text: —
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - paragraph [ref=e34]:
+                - strong [ref=e36]: "పాట రచయిత:"
+                - strong [ref=e38]: "Lyricist:"
+              - generic [ref=e40]:
+                - tablist:
+                  - tab "Telugu Lyrics" [ref=e41] [cursor=pointer]
+                  - tab "English Lyrics" [ref=e42] [cursor=pointer]
+                  - tab "Audio" [ref=e43] [cursor=pointer]
+                  - tab "Chords" [ref=e44] [cursor=pointer]
+                - tabpanel "Telugu Lyrics" [ref=e45]:
+                  - text: యెహోవా నీ నామము ఎంతో బలమైనది
+                  - text: ఆ…ఆ…ఆ… ఎంతో బలమైనది
+                  - text: యేసయ్య నీ నామము ఎంతో ఘనమైనది
+                  - generic [ref=e46]:
+                    - text: ఆ…ఆ…ఆ… ఎంతో ఘనమైనది
+                    - strong [ref=e47]: "|| యెహోవా ||"
+                  - paragraph
+                  - paragraph [ref=e48]:
+                    - generic [ref=e49]:
+                      - text: మోషే ప్రార్ధించగా మన్నాను కురిపించితివి
+                      - strong [ref=e50]: (2)
+                    - generic [ref=e51]:
+                      - text: యెహోషువా ప్రార్ధించగా సూర్యచంద్రుల నాపితివి
+                      - strong [ref=e52]: (2)
+                      - strong [ref=e53]: "|| యెహోవా ||"
+                  - paragraph [ref=e54]:
+                    - generic [ref=e55]:
+                      - text: నీ ప్రజల పక్షముగా యుద్దములు చేసిన దేవా
+                      - strong [ref=e56]: (2)
+                    - generic [ref=e57]:
+                      - text: అగ్నిలో పడవేసినా భయమేమి లేకుండిరి
+                      - strong [ref=e58]: (2)
+                      - strong [ref=e59]: "|| యెహోవా ||"
+                  - paragraph [ref=e60]:
+                    - generic [ref=e61]:
+                      - text: సింహాల బోనుకైనా సంతోషముగా వెళ్ళిరి
+                      - strong [ref=e62]: (2)
+                    - generic [ref=e63]:
+                      - text: ప్రార్ధించిన వెంటనే రక్షించె నీ హస్తము
+                      - strong [ref=e64]: (2)
+                      - strong [ref=e65]: "|| యెహోవా ||"
+                  - paragraph [ref=e66]:
+                    - generic [ref=e67]:
+                      - text: చెరసాలలో వేసినా సంకెళ్ళు బిగియించినా
+                      - strong [ref=e68]: (2)
+                    - generic [ref=e69]:
+                      - text: సంఘము ప్రార్ధించగా సంకెళ్ళు విడిపోయెను
+                      - strong [ref=e70]: (2)
+                      - strong [ref=e71]: "|| యెహోవా ||"
+                  - paragraph [ref=e72]:
+                    - generic [ref=e73]:
+                      - text: పౌలు సీలను బంధించి చెరసాలలో వేసినా
+                      - strong [ref=e74]: (2)
+                    - generic [ref=e75]:
+                      - text: పాటలతో ప్రార్ధించగా చెరసాల బ్రద్దలాయే
+                      - strong [ref=e76]: (2)
+                      - strong [ref=e77]: "||యెహోవ||"
+                  - paragraph
+                - text: 
+              - paragraph
+              - paragraph [ref=e78]:
+                - strong [ref=e80]:
+                  - text: "Download Lyrics as:"
+                  - link "PPT" [ref=e81] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/wp-content/uploads/2016/05/Yehovaa-Nee-Naamamu.pptx
+              - link "Print Friendly, PDF & Email" [ref=e83] [cursor=pointer]:
+                - /url: "#"
+                - img "Print Friendly, PDF & Email" [ref=e84]
+            - generic [ref=e86]:
+              - heading "Share this:" [level=3] [ref=e87]
+              - list [ref=e89]:
+                - listitem [ref=e90]:
+                  - link "Share on WhatsApp (Opens in new window)" [ref=e91] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/?share=jetpack-whatsapp&nb=1
+                    - text: 
+                    - generic [ref=e92]: WhatsApp
+                - listitem
+                - listitem [ref=e93]:
+                  - iframe [ref=e94]:
+                    - link "Post" [ref=f32e4] [cursor=pointer]:
+                      - /url: https://x.com/intent/tweet?original_referer=https%3A%2F%2Fchristianlyricz.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Eshare%7Ctwgr%5E&text=%E0%B0%AF%E0%B1%86%E0%B0%B9%E0%B1%8B%E0%B0%B5%E0%B0%BE%C2%A0%E0%B0%A8%E0%B1%80%20%E0%B0%A8%E0%B0%BE%E0%B0%AE%E0%B0%AE%E0%B1%81&url=https%3A%2F%2Fchristianlyricz.com%2F2013%2F11%2F05%2Fyehovaa-nee-naamamu-entho-balamainadi%2F
+                      - generic [ref=f32e6]: Post
+                - listitem
+        - navigation [ref=e95]:
+          - heading "Post navigation" [level=2] [ref=e96]
+          - generic [ref=e97]:
+            - generic [ref=e99]:
+              - generic [ref=e100]: Previous
+              - link "యెహోవ నా మొర లాలించెను" [ref=e102] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2013/11/05/yehova-naa-mora-laalinchenu/
+            - generic [ref=e104]:
+              - generic [ref=e105]: Next
+              - link "యేసుతో ఠీవిగాను పోదమా" [ref=e107] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2013/11/05/yesutho-teevigaanu-podamaa/
+        - generic [ref=e109]:
+          - heading "— 3 comments" [level=2] [ref=e110]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - article [ref=e113]:
+                - generic [ref=e114]:
+                  - generic [ref=e115]:
+                    - text: Kurakudavid21@gmail.com
+                    - generic [ref=e116]: "says:"
+                  - link "October 16, 2024 at 2:55 pm" [ref=e118] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/#comment-1829
+                    - time [ref=e119]: October 16, 2024 at 2:55 pm
+                - generic [ref=e120]:
+                  - paragraph [ref=e121]: Hi
+                  - generic [ref=e123]: Loading...
+                - link "Reply to Kurakudavid21@gmail.com" [ref=e125] [cursor=pointer]:
+                  - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/?replytocom=1829#respond
+                  - text: Reply
+            - listitem [ref=e126]:
+              - article [ref=e127]:
+                - generic [ref=e128]:
+                  - generic [ref=e129]:
+                    - text: Dileep Raju
+                    - generic [ref=e130]: "says:"
+                  - link "September 7, 2024 at 10:19 am" [ref=e132] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/#comment-1799
+                    - time [ref=e133]: September 7, 2024 at 10:19 am
+                - generic [ref=e134]:
+                  - paragraph [ref=e135]: God bless you
+                  - generic [ref=e137]: Loading...
+                - link "Reply to Dileep Raju" [ref=e139] [cursor=pointer]:
+                  - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/?replytocom=1799#respond
+                  - text: Reply
+            - listitem [ref=e140]:
+              - article [ref=e141]:
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - text: Akshay kumar
+                    - generic [ref=e144]: "says:"
+                  - link "March 21, 2021 at 5:07 am" [ref=e146] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/#comment-663
+                    - time [ref=e147]: March 21, 2021 at 5:07 am
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: Tq u for lyrics
+                  - generic [ref=e151]: Loading...
+                - link "Reply to Akshay kumar" [ref=e153] [cursor=pointer]:
+                  - /url: https://christianlyricz.com/2013/11/05/yehovaa-nee-naamamu-entho-balamainadi/?replytocom=663#respond
+                  - text: Reply
+          - generic [ref=e154]:
+            - heading "— Leave a Reply" [level=3] [ref=e155]: — Leave a Reply
+            - iframe [ref=e157]:
+              
+      - complementary [ref=e158]:
+        - generic [ref=e159]:
+          - heading "— Search" [level=2] [ref=e160]
+          - search [ref=e161]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: "Search for:"
+              - searchbox "Search for:" [ref=e164]
+            - button "Search" [ref=e165] [cursor=pointer]
+        - figure [ref=e167]:
+          - iframe [ref=e169]:
+            - generic [active] [ref=f28e1]:
+              - generic "YouTube Video Player" [ref=f28e3]
+              - generic [ref=f28e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f28e10] [cursor=pointer]:
+                      - generic [ref=f28e13]:
+                        - img
+                    - button "Hide player controls" [ref=f28e14] [cursor=pointer]
+                    - generic [ref=f28e21]:
+                      - generic [ref=f28e22]:
+                        - link "శాశ్వతమైనది నీవు నా యెడ చూపిన కృప / Saswathamainadi neevu naa yeda/ Jesus songs telugu / jesus songs" [ref=f28e23] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=PgdrSxJf0Hw
+                        - link "Telugu Christian Songs" [ref=f28e24] [cursor=pointer]:
+                          - /url: /channel/UCgBkKp4Y22zsImK6tJ2Yf-A
+                          - generic [ref=f28e25]: Telugu Christian Songs
+                      - generic [ref=f28e26]:
+                        - button "thumbnail-image" [ref=f28e27] [cursor=pointer]:
+                          - img "thumbnail-image" [ref=f28e28]
+                        - generic [ref=f28e30]:
+                          - generic: Telugu Christian Songs
+                          - generic: 26.9K subscribers
+        - generic [ref=e170]:
+          - heading "— Recent Posts" [level=2] [ref=e171]
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - link "పరలోకమే నా స్వాస్థ్యము" [ref=e174] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/31/paralokame-naa-swaasthyamu/
+            - listitem [ref=e175]:
+              - link "మరువలేను మరువలేను" [ref=e176] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/
+            - listitem [ref=e177]:
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e178] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+            - listitem [ref=e179]:
+              - link "రాజుల రాజైన యేసు రాజు" [ref=e180] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/
+            - listitem [ref=e181]:
+              - link "ప్రకటింతును నీ సువార్తను" [ref=e182] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/07/prakatinthunu-nee-suvaarthanu/
+        - list [ref=e184]:
+          - listitem [ref=e185]:
+            - link "Christmas Songs" [ref=e186] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/christmas-songs/
+          - listitem [ref=e187]:
+            - link "Comfort Songs" [ref=e188] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/comfort-songs/
+          - listitem [ref=e189]:
+            - link "Commitment Songs" [ref=e190] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/commitment-songs/
+          - listitem [ref=e191]:
+            - link "Correction Songs" [ref=e192] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/correction-songs/
+          - listitem [ref=e193]:
+            - link "Easter Songs" [ref=e194] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/easter-songs/
+          - listitem [ref=e195]:
+            - link "Encouraging Songs" [ref=e196] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/encouraging-songs/
+          - listitem [ref=e197]:
+            - link "English" [ref=e198] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/english/
+          - listitem [ref=e199]:
+            - link "Good Friday Songs" [ref=e200] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/good-friday-songs/
+          - listitem [ref=e201]:
+            - link "Gospel Songs" [ref=e202] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/gospel-songs/
+          - listitem [ref=e203]:
+            - link "Hindi" [ref=e204] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hindi/
+          - listitem [ref=e205]:
+            - link "Hope Songs" [ref=e206] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hope-songs/
+          - listitem [ref=e207]:
+            - link "Kids Songs" [ref=e208] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/kids-songs/
+          - listitem [ref=e209]:
+            - link "Marriage Songs" [ref=e210] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/marriage-songs/
+          - listitem [ref=e211]:
+            - link "Offering Songs" [ref=e212] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/offering-songs/
+          - listitem [ref=e213]:
+            - link "Praise Songs" [ref=e214] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/praise-songs/
+          - listitem [ref=e215]:
+            - link "Prayer Songs" [ref=e216] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/prayer-songs/
+          - listitem [ref=e217]:
+            - link "Repentance Songs" [ref=e218] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/repentance-songs/
+          - listitem [ref=e219]:
+            - link "Second Coming Songs" [ref=e220] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/second-coming-songs/
+          - listitem [ref=e221]:
+            - link "Telugu" [ref=e222] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/telugu/
+          - listitem [ref=e223]:
+            - link "Thanksgiving Songs" [ref=e224] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/thanksgiving-songs/
+          - listitem [ref=e225]:
+            - link "Worship Songs" [ref=e226] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/worship-songs/
+    - contentinfo [ref=e227]:
+      - generic [ref=e229]:
+        - text: © 2026
+        - link "CHRISTIAN LYRICZ" [ref=e230] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+        - text: Bloggo theme by
+        - link "justgoodthemes.com" [ref=e231] [cursor=pointer]:
+          - /url: https://justgoodthemes.com/
+        - link "Back to the top" [ref=e232] [cursor=pointer]:
+          - /url: "#page"
+          - generic [ref=e233]: 
+          - generic [ref=e234]: Back to the top
+  - search [ref=e237]:
+    - text: 
+    - generic [ref=e238]:
+      - generic [ref=e239]: "Search for:"
+      - searchbox "Search for:" [ref=e240]
+    - button "Search" [ref=e241] [cursor=pointer]
+  - button "Dark Mode Toggle" [ref=e243] [cursor=pointer]:
+    - img [ref=e247]
+  - link "HOME" [ref=e249] [cursor=pointer]:
+    - /url: https://christianlyricz.com/
+  - dialog [ref=e250]:
+    - generic [ref=e251]: "%d"
+  - status [ref=e252]

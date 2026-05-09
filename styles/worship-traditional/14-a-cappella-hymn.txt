@@ -1,0 +1,6 @@
+STYLE: 14 — A Cappella Hymn
+GOOD FOR: Vocal-only worship, retreats, prayer rooms
+TEMPO: 70 BPM (medium-slow)
+
+=== SUNO STYLE PROMPT ===
+A cappella Telugu Christian hymn with Telugu vocals, full SATB choir with no instruments, medium-slow tempo around 70 BPM, pure vocal harmonies with soprano, alto, tenor, and bass, sacred ethereal vocal-only tone.

@@ -1,0 +1,46 @@
+=== SUNO STYLE PROMPT (paste into "Style of Music" field) ===
+Contemporary Telugu Christian worship ballad with Telugu vocals, female solo lead and soft male backing harmonies, medium tempo around 85 BPM, piano, electric guitar, ambient pads, and gentle drums, intimate and reflective worship tone.
+
+=== LYRICS (paste into "Lyrics" field) ===
+[Chorus]
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+
+[Verse 1]
+నేను బలహీనుడనైన వేళలో
+నీ బాహువులు నన్ను మోశాయయ్యా
+నా మాటలు నిండని మౌన నిమిషం
+నీ హృదయం నాకై మాట్లాడెనయ్యా
+
+[Chorus]
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+
+[Verse 2]
+పడిపోయిన ప్రతి మెట్టు మీద
+నీ హస్తము నన్ను లేపెనయ్యా
+నా కన్నీటి బిందువుల కథలో
+నీ కరుణ నన్ను చేరెనయ్యా
+
+[Chorus]
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+
+[Bridge]
+నీవే నా బలము — నీవే నా ఆశ
+నీవే నా శాంతి — నీవే నా సర్వము
+నీవే నా బలము — నీవే నా ఆశ
+నీవే నా శాంతి — నీవే నా సర్వము
+
+[Chorus]
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+నీ కృప చాలు యేసయ్యా నాకు
+నీ ప్రేమ చాలు ప్రభువా
+[End]

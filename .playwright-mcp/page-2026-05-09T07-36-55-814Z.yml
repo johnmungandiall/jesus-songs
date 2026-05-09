@@ -1,0 +1,256 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation "Primary Menu" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list:
+            - listitem [ref=e6]:
+              - link "Telugu Songs" [ref=e7] [cursor=pointer]:
+                - /url: https://christianlyricz.com/
+            - listitem [ref=e8]:
+              - link "English Songs" [ref=e9] [cursor=pointer]:
+                - /url: https://christianlyricz.com/english-songs/
+            - listitem [ref=e10]:
+              - link "Hindi Songs" [ref=e11] [cursor=pointer]:
+                - /url: https://christianlyricz.com/hindi-songs/
+            - listitem [ref=e12]:
+              - link "Song Request" [ref=e13] [cursor=pointer]:
+                - /url: https://christianlyricz.com/song-request/
+            - listitem [ref=e14]:
+              - link "Post Lyrics" [ref=e15] [cursor=pointer]:
+                - /url: https://christianlyricz.com/post-lyrics/
+        - link "Search" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e17]: 
+          - generic [ref=e18]: Search
+    - banner [ref=e19]:
+      - paragraph [ref=e22]:
+        - link "CHRISTIAN LYRICZ" [ref=e23] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+    - generic [ref=e25]:
+      - main [ref=e27]:
+        - article [ref=e28]:
+          - generic [ref=e29]:
+            - heading "మరువలేను మరువలేను" [level=1] [ref=e31]
+            - text: —
+          - generic [ref=e32]:
+            - generic [ref=e33]:
+              - paragraph [ref=e34]:
+                - strong [ref=e35]: "పాట రచయిత:"
+                - text: స్టూవర్టుపురం సుధాకర్
+                - strong [ref=e36]: "Lyricist:"
+                - text: Stuvartpuram Sudhakar
+              - generic [ref=e38]:
+                - tablist [ref=e39]:
+                  - tab "Telugu Lyrics" [expanded] [selected] [ref=e40]:
+                    - link "Telugu Lyrics" [ref=e41]:
+                      - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/#tabs-16570-0-0
+                  - tab "English Lyrics" [ref=e42]:
+                    - link "English Lyrics" [ref=e43] [cursor=pointer]:
+                      - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/#tabs-16570-0-1
+                  - tab "Audio" [ref=e44]:
+                    - link "Audio" [ref=e45] [cursor=pointer]:
+                      - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/#tabs-16570-0-2
+                - tabpanel "Telugu Lyrics" [ref=e46]:
+                  - paragraph [ref=e47]:
+                    - text: మరువలేను – మరువలేను – మరువలేనయ్యా
+                    - strong [ref=e48]: (2)
+                    - text: నీ ప్రేమ చరితం.. ఆ ఘోర మరణం
+                    - strong [ref=e49]: (2)
+                    - text: మరువలేనయ్యా.. మరువలేనయ్యా…
+                    - text: యేసయ్యా.. యేసయ్యా – యేసయ్యా.. దయామయా
+                    - strong [ref=e50]: (2)
+                    - text: ఓ ఓ ఓ…. మరువలేనయ్యా.. మరువలేనయ్యా…
+                  - paragraph [ref=e51]:
+                    - text: బలి పశువుగ నా పాపము కొరకై
+                    - text: బలియై పోతివయ్యా
+                    - strong [ref=e52]: (2)
+                    - text: నోరు తెరువక భారపు సిలువను
+                    - text: భరియించి ఓర్చితివా
+                    - text: నాకై భారము మోసితివా
+                    - strong [ref=e53]: "||యేసయ్యా||"
+                  - paragraph [ref=e54]:
+                    - text: పంచ గాయములలో కారుచున్న రుధిరం
+                    - text: నిను ముంచి వేసెనయ్యా
+                    - strong [ref=e55]: (2)
+                    - text: దోష రహితుడా హేతువు లేక
+                    - text: నిను ద్వేషించిరయ్యా
+                    - text: పగబట్టి చంపిరయ్యా
+                    - strong [ref=e56]: "||యేసయ్యా||"
+                  - paragraph [ref=e57]:
+                    - text: ఏ దారి గానక – తిరిగిన నన్ను
+                    - text: నీ దరి చేర్చితివే
+                    - strong [ref=e58]: (2)
+                    - text: మార్గము నీవై సత్యము నీవై
+                    - text: జీవము నీవైతివే
+                    - text: నా సర్వము నీవైతివే
+                    - strong [ref=e59]: "||యేసయ్యా||"
+              - paragraph [ref=e60]: "Download Lyrics as: PPT"
+              - link "Print Friendly, PDF & Email" [ref=e62] [cursor=pointer]:
+                - /url: "#"
+                - img "Print Friendly, PDF & Email" [ref=e63]
+            - generic [ref=e65]:
+              - heading "Share this:" [level=3] [ref=e66]
+              - list [ref=e68]:
+                - listitem [ref=e69]:
+                  - link "Share on WhatsApp (Opens in new window)" [ref=e70] [cursor=pointer]:
+                    - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/?share=jetpack-whatsapp&nb=1
+                    - text: 
+                    - generic [ref=e71]: WhatsApp
+                - listitem
+                - listitem [ref=e72]:
+                  - link "Tweet" [ref=e73] [cursor=pointer]:
+                    - /url: https://twitter.com/share
+                - listitem
+        - navigation [ref=e74]:
+          - heading "Post navigation" [level=2] [ref=e75]
+          - generic [ref=e76]:
+            - generic [ref=e78]:
+              - generic [ref=e79]: Previous
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e81] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+            - generic [ref=e83]:
+              - generic [ref=e84]: Next
+              - link "పరలోకమే నా స్వాస్థ్యము" [ref=e86] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/31/paralokame-naa-swaasthyamu/
+        - generic [ref=e89]:
+          - heading "— Leave a Reply" [level=3] [ref=e90]: — Leave a Reply
+          - iframe [ref=e92]:
+            
+      - complementary [ref=e93]:
+        - generic [ref=e94]:
+          - heading "— Search" [level=2] [ref=e95]
+          - search [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: "Search for:"
+              - searchbox "Search for:" [ref=e99]
+            - button "Search" [ref=e100] [cursor=pointer]
+        - figure [ref=e102]:
+          - iframe [ref=e104]:
+            - generic [active] [ref=f40e1]:
+              - generic "YouTube Video Player" [ref=f40e3]
+              - generic [ref=f40e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f40e10] [cursor=pointer]:
+                      - generic [ref=f40e13]:
+                        - img
+                    - button "Hide player controls" [ref=f40e14] [cursor=pointer]
+                    - generic [ref=f40e21]:
+                      - generic [ref=f40e22]:
+                        - link "శాశ్వతమైనది నీవు నా యెడ చూపిన కృప / Saswathamainadi neevu naa yeda/ Jesus songs telugu / jesus songs" [ref=f40e23] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=PgdrSxJf0Hw
+                        - link "Telugu Christian Songs" [ref=f40e24] [cursor=pointer]:
+                          - /url: /channel/UCgBkKp4Y22zsImK6tJ2Yf-A
+                          - generic [ref=f40e25]: Telugu Christian Songs
+                      - generic [ref=f40e26]:
+                        - button "thumbnail-image" [ref=f40e27] [cursor=pointer]:
+                          - img "thumbnail-image" [ref=f40e28]
+                        - generic [ref=f40e30]:
+                          - generic: Telugu Christian Songs
+                          - generic: 26.9K subscribers
+        - generic [ref=e105]:
+          - heading "— Recent Posts" [level=2] [ref=e106]
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - link "పరలోకమే నా స్వాస్థ్యము" [ref=e109] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/31/paralokame-naa-swaasthyamu/
+            - listitem [ref=e110]:
+              - link "మరువలేను మరువలేను" [ref=e111] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/maruvalenu-maruvalenu/
+            - listitem [ref=e112]:
+              - link "దైవ తనయా క్రీస్తు నాథుండా" [ref=e113] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/29/daiva-thanayaa-kreesthu-naathundaa/
+            - listitem [ref=e114]:
+              - link "రాజుల రాజైన యేసు రాజు" [ref=e115] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/23/raajula-raajaina-yesu-raaju/
+            - listitem [ref=e116]:
+              - link "ప్రకటింతును నీ సువార్తను" [ref=e117] [cursor=pointer]:
+                - /url: https://christianlyricz.com/2026/03/07/prakatinthunu-nee-suvaarthanu/
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "Christmas Songs" [ref=e121] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/christmas-songs/
+          - listitem [ref=e122]:
+            - link "Comfort Songs" [ref=e123] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/comfort-songs/
+          - listitem [ref=e124]:
+            - link "Commitment Songs" [ref=e125] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/commitment-songs/
+          - listitem [ref=e126]:
+            - link "Correction Songs" [ref=e127] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/correction-songs/
+          - listitem [ref=e128]:
+            - link "Easter Songs" [ref=e129] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/easter-songs/
+          - listitem [ref=e130]:
+            - link "Encouraging Songs" [ref=e131] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/encouraging-songs/
+          - listitem [ref=e132]:
+            - link "English" [ref=e133] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/english/
+          - listitem [ref=e134]:
+            - link "Good Friday Songs" [ref=e135] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/good-friday-songs/
+          - listitem [ref=e136]:
+            - link "Gospel Songs" [ref=e137] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/gospel-songs/
+          - listitem [ref=e138]:
+            - link "Hindi" [ref=e139] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hindi/
+          - listitem [ref=e140]:
+            - link "Hope Songs" [ref=e141] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/hope-songs/
+          - listitem [ref=e142]:
+            - link "Kids Songs" [ref=e143] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/kids-songs/
+          - listitem [ref=e144]:
+            - link "Marriage Songs" [ref=e145] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/marriage-songs/
+          - listitem [ref=e146]:
+            - link "Offering Songs" [ref=e147] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/offering-songs/
+          - listitem [ref=e148]:
+            - link "Praise Songs" [ref=e149] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/praise-songs/
+          - listitem [ref=e150]:
+            - link "Prayer Songs" [ref=e151] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/prayer-songs/
+          - listitem [ref=e152]:
+            - link "Repentance Songs" [ref=e153] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/repentance-songs/
+          - listitem [ref=e154]:
+            - link "Second Coming Songs" [ref=e155] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/second-coming-songs/
+          - listitem [ref=e156]:
+            - link "Telugu" [ref=e157] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/telugu/
+          - listitem [ref=e158]:
+            - link "Thanksgiving Songs" [ref=e159] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/thanksgiving-songs/
+          - listitem [ref=e160]:
+            - link "Worship Songs" [ref=e161] [cursor=pointer]:
+              - /url: https://christianlyricz.com/category/worship-songs/
+    - contentinfo [ref=e162]:
+      - generic [ref=e164]:
+        - text: © 2026
+        - link "CHRISTIAN LYRICZ" [ref=e165] [cursor=pointer]:
+          - /url: https://christianlyricz.com/
+        - text: Bloggo theme by
+        - link "justgoodthemes.com" [ref=e166] [cursor=pointer]:
+          - /url: https://justgoodthemes.com/
+        - link "Back to the top" [ref=e167] [cursor=pointer]:
+          - /url: "#page"
+          - generic [ref=e168]: 
+          - generic [ref=e169]: Back to the top
+  - search [ref=e172]:
+    - text: 
+    - generic [ref=e173]:
+      - generic [ref=e174]: "Search for:"
+      - searchbox "Search for:" [ref=e175]
+    - button "Search" [ref=e176] [cursor=pointer]
+  - button "Dark Mode Toggle" [ref=e178] [cursor=pointer]:
+    - img [ref=e182]
+  - link "HOME" [ref=e184] [cursor=pointer]:
+    - /url: https://christianlyricz.com/
+  - status [ref=e185]

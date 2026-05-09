@@ -1,0 +1,46 @@
+=== SUNO STYLE PROMPT (paste into "Style of Music" field) ===
+Telugu folk village worship in rural Christian gathering style with Telugu vocals, lead male voice with full village congregation chorus, upbeat tempo around 115 BPM, dholak, harmonium, ektara, hand claps, tambourine, and simple bansuri flute, earthy joyful folk-praise tone.
+
+=== LYRICS (paste into "Lyrics" field) ===
+[Chorus]
+మంచి దేవుడు మన దేవుడు
+మన యేసయ్య మంచి దేవుడు
+మంచి దేవుడు మన దేవుడు
+ఆయనను స్తుతించుదాం రండి రండి
+
+[Verse 1]
+పల్లెలోని ప్రతి గుడిసెలో
+నీ నామమును పిలిచెదమయ్యా
+పొలములో పనిచేయునప్పుడు
+నీ పాటలు పాడెదమయ్యా
+
+[Chorus]
+మంచి దేవుడు మన దేవుడు
+మన యేసయ్య మంచి దేవుడు
+మంచి దేవుడు మన దేవుడు
+ఆయనను స్తుతించుదాం రండి రండి
+
+[Verse 2]
+పేదవానికి భోజనమిచ్చు దేవుడు
+ఆకలిని తీర్చు మంచి తండ్రియును
+కష్టములో మనకు తోడై నిలిచే
+కన్నీరు తుడిచే దయాగల ప్రభువు
+
+[Chorus]
+మంచి దేవుడు మన దేవుడు
+మన యేసయ్య మంచి దేవుడు
+మంచి దేవుడు మన దేవుడు
+ఆయనను స్తుతించుదాం రండి రండి
+
+[Verse 3]
+చప్పట్లు కొట్టుచు పాడెదము రండి
+మన గుండెల నిండి పొంగెదము రండి
+పిల్లలతో పెద్దలతో కలిసి రండి
+యేసయ్య నామమును ఎత్తి స్తుతించుదాం రండి
+
+[Chorus]
+మంచి దేవుడు మన దేవుడు
+మన యేసయ్య మంచి దేవుడు
+మంచి దేవుడు మన దేవుడు
+ఆయనను స్తుతించుదాం రండి రండి
+[End]
